@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/show_banner_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="ShowBanner"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/visible_banner_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="VisibleBanner"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/gone_banner_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="GoneBanner"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/show_inter_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="ShowInter"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/show_rewardvVideo_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="ShowRVideo"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/show_native_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="ShowNative"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/destroy_native_btn"
+            style="@style/jcDemoButtonStyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jc_demo_btn_bg"
+            android:text="DestroyNative"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>
